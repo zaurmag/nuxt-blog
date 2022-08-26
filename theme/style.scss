@@ -1,0 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Animation
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.post-body p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.post-body p:not(:last-child) {
+  margin-bottom: 25px;
+}
